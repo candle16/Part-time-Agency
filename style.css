@@ -2,10 +2,16 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: ""; clear: both; height: 0;}
 
+
+
 header {
-  background-image: url('images/anete-lusina-382329-unsplash.jpg');
+  background-image: url('Images/anete-lusina-382329-unsplash.jpg');
   background-size:cover;
   background-repeat: no-repeat;
+  /* position:relative; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -14,10 +20,10 @@ header nav {
   justify-content: space-around;
   flex-direction: horizontal;
   background-color: white;
-  max-width: 75%;
+  /* max-width: 75%; */
+  /* position: absolute;
+  top: 10px; */
   margin: 0 auto;
-
-
 
 }
 
@@ -32,13 +38,52 @@ header ul li  {
 
 }
 
+.container {
+  margin: 30px 0 30px 0;
+}
+
+#boxNav {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#caps {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 2.5em;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
 .aboutHeading {
   max-width: 90%;
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
-  height: 20vh;
-   
+  height: 30vh;
+
+}
+
+#aboutus {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#greenLine {
+  border-bottom: 3px solid lightgreen;
+  max-width: 150px;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 
 .about {
@@ -46,7 +91,26 @@ header ul li  {
   max-width: 90%;
   margin: 0 auto;
   justify-content: space-around;
-  height: 40vh;
+  max-height: 70vh;
+  padding-bottom: 50px;
+}
+
+.button {
+  max-width: 100px;
+  max-height: 50px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.button p {
+  vertical-align: 50%;
+  max-width: 95%;
+  margin: 0 auto;
+
+}
+
+.button2 {
+  background-color: lightgreen;
 }
 
 .fekra {
@@ -56,9 +120,61 @@ header ul li  {
   color: white;
 }
 
+.chooseFeatures {
+  padding: 30px;
+  background-color: rgba(169,169,169,0.2);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.chooseFeatures img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.tabsBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo {
+  display: flex;
+}
+
 .lists {
   display: flex;
   justify-content: space-around;
   max-width:95%;
   margin: 0 auto;
+}
+
+.pic img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+.ourWork {
+  max-width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  height: 30vh;
+
+}
+
+#ourW {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#lineGreen {
+  border-bottom: 3px solid lightgreen;
+  max-width: 150px;
+  margin: 0 auto;
+  padding-top: 30px;
 }
