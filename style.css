@@ -120,8 +120,11 @@ header ul li  {
   color: white;
 }
 
+/* choose features boxes */
+
+
 .chooseFeatures {
-  padding: 30px;
+  padding: 25px 100px 25px 100px;
   background-color: rgba(169,169,169,0.2);
   display: flex;
   justify-content: space-between;
@@ -135,13 +138,70 @@ header ul li  {
   max-height: 200px;
 }
 
+.chooseFeatures h2 {
+  margin-left: 10px;
+}
+
 .tabsBox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
+}
+
+.tabsBox div {
+  border: 2px solid lightgrey;
+  width: calc(100% / 3);
+  height: 50px;
+  vertical-align: 50%;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+  text-align: center;
+
+
+}
+.choose, .features{
+    max-width: 50%;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+
+}
+
+.whiteBox, .tabsBox, .photo {
+    background-color: white;
+}
+
+#green {
+  background-color: lightgreen;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.whiteBox p:nth-child(2) {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.bar {
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+}
+
+.features i {
+  padding: 0 15px 0 25px;
 }
 
 .photo {
   display: flex;
+
+}
+.photo img, .photo p {
+      margin: 0 10px 0 10px;
+}
+
+.photo {
+  padding: 5px;
 }
 
 .lists {
@@ -156,13 +216,15 @@ header ul li  {
   max-height: 300px;
 }
 
+/* Our Work and gallery */
 
 .ourWork {
   max-width: 90%;
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
-  height: 30vh;
+  padding-bottom: 30px;
+
 
 }
 
@@ -177,6 +239,12 @@ header ul li  {
   max-width: 150px;
   margin: 0 auto;
   padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.galleryPic img {
+  width: 300px;
+  height: 300px;
 }
 
 .create {
