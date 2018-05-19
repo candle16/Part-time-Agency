@@ -204,13 +204,6 @@ header ul li  {
   padding: 5px;
 }
 
-.lists {
-  display: flex;
-  justify-content: space-around;
-  max-width:95%;
-  margin: 0 auto;
-}
-
 .pic img {
   max-width: 300px;
   max-height: 300px;
@@ -242,10 +235,28 @@ header ul li  {
   margin-bottom: 30px;
 }
 
-.galleryPic img {
-  width: 300px;
-  height: 300px;
+.gallery .galleryA, .galleryB {
+  display: flex;
+
 }
+
+.gallery {
+  max-width: 90%;
+  padding: 0 50px 0 50px;
+  margin: 0 auto;
+}
+
+.galleryA img, .galleryB img {
+  height: 300px;
+
+}
+
+.galleryA div, .galleryB div {
+  width: calc(100% / 3);
+  margin: 25px 0;
+}
+
+/* create business - computer pic */
 
 .create {
   display: flex;
@@ -259,6 +270,15 @@ header ul li  {
 .create img {
   width: 400px;
   height: 400px;
+}
+
+#business, #compPic {
+  width: calc((100% / 2) - 100px);
+  margin: 0 auto;
+}
+
+#business {
+  padding-top: 3%;
 }
 
 #feat, #get {
@@ -275,6 +295,9 @@ header ul li  {
   background-color: lightgreen;
 }
 
+
+/* Stacks and phone with icons  'Our Best Services' */
+
 #bigPhone img {
   width: 300px;
   height: 400px;
@@ -286,32 +309,100 @@ header ul li  {
   justify-content: space-around;
   max-width: 90%;
   margin: 0 auto;
+  padding: 25px 0;
 }
 
+#bigPhone, .stack1, .stack2 {
+  width: calc((100% / 3) - 50px);
+}
+
+.stack1 .div, .stack2 .div {
+  display: flex;
+}
+
+.glyph i {
+  height: 75px;
+  width: 75px;
+  border: 1px solid darkgray;
+  color: darkgray;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* video panel */
 .themesVid {
   background-color: rgba(169,169,169, 0.2);
   height: 50vh;
   display: flex;
+  align-items: center;
   padding: 10px 25px 10px 25px;
+
 }
 
-.themesVid #vidFrame {
-  max-width: 500px;
-  height: 400px;
+#vidFrame, #designPara {
+  width: calc((100% / 2) - 100px);
+  margin: 0 auto;
 }
+
+.featuresB {
+    width: 150px;
+    max-height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 10px;
+
+}
+
+.Vidbutton2 {
+  background-color: lightgreen;
+}
+
+/* brands list */
 
 .graphic {
   height: 30vh;
   font-size: 2em;
   color: lightgrey;
+  display: flex;
+  align-items: center;
+
 }
 
 .graphic ul li {
   list-style-type: none;
+  margin: 0 10px;
 }
 
 .graphic ul {
   display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* footer navs */
+.lists {
+  display: flex;
   justify-content: space-around;
-  margin: 25 50px 25px 50px;
+  max-width:100%;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.lists div {
+  width: calc((100% / 4) - 40px);
+  margin: 0 auto;
+}
+
+#contact ul li {
+  list-style-type: none;
+
+}
+
+.social {
+  color: white;
+  background-color: black;
 }
