@@ -60,11 +60,13 @@ header ul li  {
   padding: 20px;
   font-size: 2.5em;
   border: 2px solid white;
-  color: white;
+  color: lightgreen;
   text-align: center;
   max-width: 70%;
   margin: 0 auto;
 }
+
+/* test for github to check key */
 
 #features, #getstarted {
   display: inline-block;
