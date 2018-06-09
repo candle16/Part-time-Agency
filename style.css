@@ -35,6 +35,10 @@ header ul {
 
 }
 
+header ul div {
+  display: flex;
+}
+
 header ul li  {
  padding: 10px;
 
@@ -60,7 +64,7 @@ header ul li  {
   padding: 20px;
   font-size: 2.5em;
   border: 2px solid white;
-  color: lightgreen;
+  color: white;
   text-align: center;
   max-width: 70%;
   margin: 0 auto;
@@ -596,19 +600,76 @@ input {
 
   }
 
+  header ul {
+    list-style-type: none;
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
 
+  }
+
+  .segment {
+    text-align: center;
+  }
 
   #boxNav {
     font-size: 1em;
     border: 2px solid black;
-    max-width: 60%;
-    align-items: center;
-    margin: 10px;
+    max-width: 50%;
+    margin: 0 auto;
+
 
   }
 
-  #features, #getstarted {
+  header ul div {
+    justify-content: space-around;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .fekra {
+    height: 55vh;
+  }
+
+  #boxNav span {
     display: block;
+    max-width: 95%;
+    margin: 0 auto;
   }
+
+  #getstarted {
+    margin-left: 0;
+  }
+
+/*480 about section */
+
+  .about {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    max-height: 100vh;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .aboutHeading {
+    max-width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    height: 25vh;
+
+  }
+
+  .chooseFeatures {
+    padding: 25px 100px 25px 100px;
+    background-color: rgba(169,169,169,0.2);
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+
+  }
+
+
 
 }
