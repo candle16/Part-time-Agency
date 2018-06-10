@@ -637,8 +637,10 @@ input {
     margin: 0 auto;
   }
 
-  #getstarted {
+  #getstarted, #features {
     margin-left: 0;
+    /* max-width: 100px;
+    max-height: 40px; */
   }
 
 /*480 about section */
@@ -648,7 +650,7 @@ input {
     margin: 0 auto;
     display: block;
     max-height: 200vh;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     text-align: center;
   }
 
@@ -659,12 +661,13 @@ input {
     text-align: center;
     height: 25vh;
 
+
   }
 
 /* 480 chooseFeatures section */
 
   .chooseFeatures {
-    padding: 25px 100px 25px 100px;
+    padding: 25px 50px 25px 50px;
     background-color: rgba(169,169,169,0.2);
     width: 100%;
     margin: 0 auto;
@@ -692,25 +695,36 @@ input {
     margin-left: 10px;
   }
 
-  /* .tabsBox {
-    display: flex;
-    justify-content: space-between;
-
-  } */
+  .tabsBox {
+    display: block;
+    padding: 10px;
+  }
 
   .tabsBox div {
     border: 2px solid lightgrey;
-    width: calc(100% / 3);
+    width: 70%;
     height: 50px;
     vertical-align: 50%;
     padding: 0 10px 0 10px;
     text-align: center;
-
+    margin: 0 auto;
+    margin-top: 10px;
 
   }
-  .choose, .features{
-      max-width: 50%;
+  .choose {
+      max-width: 100%;
       padding: 10px;
+      display: block;
+      min-height: 100vh;
+
+  }
+
+  .features{
+      max-width: 100%;
+      padding: 10px;
+      display: block;
+      min-height: 70vh;
+      margin-top: 10px;
 
   }
 
@@ -744,7 +758,7 @@ input {
   .bar {
     margin-top: 10px;
     height: 55px;
-    display: flex;
+    display: block;
 
   }
 
@@ -775,6 +789,342 @@ input {
   .containerA, .containerB {
     max-height: 30vh;
   }
+
+  .button {
+    max-width: 120px;
+    max-height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .button p {
+    vertical-align: 50%;
+    max-width: 95%;
+    margin: 0 auto;
+    line-height: 1;
+
+  }
+
+  .button2 {
+    background-color: lightgreen;
+  }
+
+/* 480 out work and gallery */
+
+  .ourWork {
+    max-width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+  }
+
+  .ourW {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .lineGreen {
+    border-bottom: 3px solid lightgreen;
+    max-width: 150px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gallery .galleryA, .galleryB {
+    display: block;
+
+  }
+
+  .gallery {
+    max-width: 90%;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+  }
+
+  .galleryA img, .galleryB img {
+    height: 200px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+
+  }
+
+  .galleryA div, .galleryB div {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px 0;
+  }
+
+
+  /* 480 create business - computer pic */
+
+  .create {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(169,169,169,0.2);
+    padding: 50px;
+  }
+
+  .create img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #business, #compPic {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  #business {
+    padding-top: 3%;
+  }
+
+
+  #feat, #get {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px 25px 10px 25px;
+    vertical-align: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  #get {
+
+    background-color: lightgreen;
+  }
+
+  #compPic {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+  }
+
+  /* 480 Stacks and big phone with icons  'Our Best Services' */
+
+  #bigPhone  {
+    background-image: url("Images/cellphone-cellular-communication-263564.jpg");
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .triStacks {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+
+  #bigPhone, .stack1, .stack2 {
+    width: 90%;
+
+  }
+
+  .stack1 .div, .stack2 .div {
+    display: flex;
+    max-width: 100%
+    margin: 0 auto;
+  }
+
+  .glyph i {
+    height: 50px;
+    width: 50px;
+    border: 1px solid darkgray;
+    color: darkgray;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 480 video panel */
+  .themesVid {
+    background-color: rgba(169,169,169, 0.2);
+    min-height: 100vh;
+    display: block;
+    width: 100%;
+    padding: 25px;
+
+  }
+
+  #vidFrame, #designPara {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .featuresB {
+      width: 150px;
+      max-height: 50px;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 0 10px;
+
+  }
+
+  .Vidbutton2 {
+    background-color: lightgreen;
+  }
+
+  /* 480 brands list */
+
+  .graphic {
+    min-height: 50vh;
+    font-size: 1.5em;
+    color: lightgrey;
+    display: block;
+
+  }
+
+  .graphic ul li {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+
+  .graphic ul {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* 480 footer navs */
+
+
+  .lists {
+    display: block;
+    max-width:100%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  .lists div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #mission {
+    padding: 10px;
+  }
+
+  #mission p {
+    color: rgba(169, 169, 169, 0.8);
+  }
+
+  #contact ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(169, 169, 169, 0.8);
+
+  }
+
+  #contact ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #contact span {
+    padding-right: 15px;
+  }
+
+  #mailinglist p {
+    color: rgba(169, 169, 169, 0.8);
+  }
+
+  #form div {
+    background-color: lightgreen;
+    height: 24px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgreen;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #form .fa-paper-plane {
+
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding-right: 3px;
+
+
+  }
+
+  input {
+    /* margin-left: -65px; */
+  }
+
+
+  #tags div {
+    display: inline;
+    line-height: 50px;
+    color: rgba(169, 169, 169, 0.8);
+    border: 1px solid rgba(169, 169, 169, 0.9);
+    min-width: 150px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 5px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+
+  }
+
+  .social {
+    display: flex;
+    background-color: black;
+    padding: 15px 0;
+    padding-left: 5px;
+  }
+
+  .social i  {
+    color: white;
+    background-color: darkgray;
+    height: 35px;
+    width: 35px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .social p {
+    color: white;
+    margin-left: 400px;
+
+  }
+
+
+
+
 
 
 
