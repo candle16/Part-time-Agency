@@ -7,14 +7,17 @@ body {
 }
 
 header {
-  background-image: url('Images/med-badr-chemmaoui-524648-unsplash.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  /* position:relative; */
+  background-color: rgba(0,0,0,0.3);
   display: flex;
   align-items: center;
   justify-content: space-around;
 
+}
+
+.transparent {
+  background-image: url('Images/dave-blahlentino-149510-unsplash.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 header nav {
@@ -347,8 +350,10 @@ header ul li  {
 
 .heightTest p {
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
+
+
 
 #feat, #get {
   height: 50px;
@@ -482,6 +487,7 @@ header ul li  {
 .graphic ul {
   display: flex;
   flex-direction: row;
+  padding-left: 0;
 
   /* margin: 0 auto;
   margin-left: 0; */
@@ -620,21 +626,586 @@ input {
 }
 
 
-@media (max-width: 940px){
+@media (max-width: 1150px){
+
+  /*1150 about section */
+
+  .about {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    max-height: 200vh;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .aboutHeading {
+    max-width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    height: 25vh;
+
+
+  }
+
+  .pic p {
+    line-height: 1.3;
+    padding: 0 5px;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  /* 1150 chooseFeatures section */
+
+  .chooseFeatures {
+    padding: 25px 50px 25px 50px;
+    background-color: rgba(169,169,169,0.2);
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 150vh;
+
+
+  }
+
+  .chooseFeatures img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .photo {
+    padding: 0;
+  }
+
+  .photo p {
+    line-height: 1.3;
+    /* display: flex;
+    align-items: center; */
+  }
+  .chooseFeatures h2 {
+    margin-left: 10px;
+  }
+
+  .tabsBox {
+    display: block;
+    padding: 10px;
+  }
+
+  .tabsBox div {
+    border: 2px solid lightgrey;
+    width: 70%;
+    height: 50px;
+    vertical-align: 50%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+
+  }
+  .choose {
+      max-width: 100%;
+      padding: 10px;
+      display: block;
+      min-height: 100vh;
+
+  }
+
+  .features{
+      max-width: 100%;
+      padding: 10px;
+      display: block;
+      min-height: 70vh;
+      margin-top: 10px;
+
+  }
+
+  .whiteBox, .tabsBox, .photo {
+      background-color: white;
+  }
+
+  .whiteBox p {
+    line-height: 1.3;
+  }
+
+  #green {
+    background-color: lightgreen;
+    height: 50px;
+    /* display: flex;
+    align-items: center; */
+    margin: 0;
+
+  }
+
+  #lalala {
+    margin:0;
+
+  }
+
+  .whiteBox p:nth-child(2) {
+    padding: 20px 15px;
+    margin-bottom: 0;
+  }
+
+  .bar {
+    margin-top: 10px;
+    height: 55px;
+    display: block;
+
+  }
+
+  .features i {
+    padding: 0 15px 0 25px;
+  }
+
+  .photo {
+    display: block;
+    padding: 10px 5px;
+
+  }
+  .photo img, .photo p {
+        margin: 0 10px 0 10px;
+  }
+
+  .pic img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+
+  .theme {
+    padding: 0;
+  }
+
+
+  .containerA, .containerB {
+    max-height: 30vh;
+  }
+
+  .button {
+    max-width: 120px;
+    max-height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .button p {
+    vertical-align: 50%;
+    max-width: 95%;
+    margin: 0 auto;
+    line-height: 1;
+
+  }
+
+  .button2 {
+    background-color: lightgreen;
+  }
+
+  /* 1150 our work and gallery */
+
+  .ourWork {
+    max-width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+
+
+  }
+
+  .ourW {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .lineGreen {
+    border-bottom: 3px solid lightgreen;
+    max-width: 150px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gallery .galleryA, .galleryB {
+    display: block;
+
+  }
+
+  .gallery {
+    max-width: 90%;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+  }
+
+  .galleryA img, .galleryB img {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+
+  }
+
+  .galleryA div, .galleryB div {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px 0;
+  }
+
+
+  /* 1150 create business - computer pic */
+
+  .create {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(169,169,169,0.2);
+    padding: 50px;
+  }
+
+  .create img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #business, #compPic {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  #business {
+    padding-top: 3%;
+
+  }
+
+
+  #feat, #get {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: 50%;
+    text-align: center;
+    /* display: block; */
+    margin: 0 auto;
+
+  }
+
+  #get {
+
+    background-color: lightgreen;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  #compPic {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+  }
+
+  /* 1150 Stacks and big phone with icons  'Our Best Services' */
+
+
+  #bigPhone img, #bigPhone {
+    width: 300px;
+    margin: 0 auto;
+    /* display: none; */
+  }
+
+  .triStacks {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+
+  #bigPhone, .stack1, .stack2 {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .stack1 .div, .stack2 .div {
+    display: flex;
+    max-width: 100%
+    margin: 0 auto;
+  }
+
+  .glyph i {
+    height: 50px;
+    width: 50px;
+    border: 1px solid darkgray;
+    color: darkgray;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heightTest {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .heightTest p {
+    text-align: center;
+  }
+  /* 1150 video panel */
+
+  .themesVid {
+    background-color: rgba(169,169,169, 0.95);
+    /* min-height: 100vh; */
+    display: block;
+    width: 100%;
+    padding: 50px;
+    height: 75vh;
+
+  }
+
+  /* iframe {
+    display: none;
+  } */
+
+  #vidFrame, #designPara {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #vidFrame {
+    padding-top: 56.22%;
+  }
+
+  .featuresB {
+      width: 150px;
+      max-height: 50px;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 0;
+      margin-top: 10px;
+
+  }
+
+  .Vidbutton2 {
+    background-color: lightgreen;
+    margin-left: 10px;
+  }
+
+  /* 1150 brands list */
+
+  .graphic {
+    min-height: 75vh;
+    font-size: 1.5em;
+    color: lightgrey;
+
+
+  }
+
+  .graphic ul li {
+    list-style-type: none;
+    padding: 0;
+
+
+  }
+
+  .graphic ul {
+    display: block;
+    max-width: 100%;
+    min-height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+  }
+
+  /* 1150 footer navs */
+
+
+  .lists {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+  }
+
+  .lists div {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+  }
+
+  #mission {
+    padding: 30px 0 10px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #mission p {
+    color: rgba(169, 169, 169, 0.8);
+  }
+
+  #contact ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(169, 169, 169, 0.8);
+
+  }
+
+  #contact ul {
+    margin: 0 0 0 5px;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #contact {
+    padding-bottom: 30px;
+  }
+
+  #contact span {
+    padding-right: 15px;
+  }
+
+  #contact h2 {
+    margin-top: 0;
+  }
+
+  #mailinglist {
+    padding-bottom: 30px;
+  }
+
+  #mailinglist p {
+    color: rgba(169, 169, 169, 0.8);
+  }
+
+  #form div {
+    background-color: lightgreen;
+    height: 24px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgreen;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #form .fa-paper-plane {
+
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding-right: 3px;
+
+
+  }
+
+  input {
+    /* margin-left: -65px; */
+  }
+
+
+  #tags div {
+    display: inline;
+    line-height: 50px;
+    color: rgba(169, 169, 169, 0.8);
+    border: 1px solid rgba(169, 169, 169, 0.9);
+    min-width: 150px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 5px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+
+  }
+
+  .social {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+  }
+
+  .social div {
+    padding: 0;
+  }
+  .social i  {
+    color: white;
+    background-color: darkgray;
+    height: 30px;
+    width: 30px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .bottom {
+    background-color: black;
+    display: block;
+  }
+  .bottom p {
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0 40px;
+    padding-bottom: 10px;
+
+  }
+
+
+
+
+
+
+
 
 }
 
 
 @media (max-width: 768px) {
 
-header {
-  background-image: url('Images/dave-blahlentino-149510-unsplash.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  display: block;
-  padding-top: 20px;
+  header {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-}
+  }
+
+  .transparent {
+    background-image: url('Images/dave-blahlentino-149510-unsplash.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
 
 header nav {
   /* background-color: white; */
@@ -1021,9 +1592,9 @@ header ul div {
 
 }
 
-iframe {
+/* iframe {
   display: none;
-}
+} */
 
 #vidFrame, #designPara {
   width: 100%;
@@ -1031,6 +1602,10 @@ iframe {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+}
+
+#vidFrame {
+  padding-top: 56.22%;
 }
 
 .featuresB {
@@ -1229,19 +1804,25 @@ input {
 @media (max-width: 480px) {
 
   header {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .transparent {
     background-image: url('Images/dave-blahlentino-149510-unsplash.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    display: block;
-    /* position:relative; */
-
   }
+
 
   header nav {
 
     background-color: white;
     display: block;
-    /* max-width: 75%; */
+    max-width: 95%;
     /* position: absolute;
     top: 10px; */
     margin: 0 auto;
@@ -1266,7 +1847,7 @@ input {
     border: 2px solid black;
     max-width: 50%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
 
 
   }
@@ -1544,10 +2125,9 @@ input {
 
   #feat, #get {
     height: 50px;
-    width: 100px;
+    width: 150px;
     border: 1px solid black;
-    padding: 10px;
-    vertical-align: 50%;
+    padding: 15px;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -1611,7 +2191,7 @@ input {
 
   .themesVid {
     background-color: rgba(169,169,169, 0.95);
-    /* min-height: 100vh; */
+    min-height: 80vh;
     display: block;
     width: 100%;
     padding: 50px;
@@ -1619,9 +2199,9 @@ input {
 
   }
 
-  iframe {
+  /* iframe {
     display: none;
-  }
+  } */
 
   #vidFrame, #designPara {
     width: 100%;
@@ -1630,20 +2210,24 @@ input {
     padding-bottom: 20px;
     text-align: center;
   }
+#vidFrame {
+  padding-top: 56.22%;
+}
 
   .featuresB {
-      width: 150px;
+      min-width: 100px;
       max-height: 50px;
       border: 1px solid black;
-      padding: 5px;
-      margin: 0;
-      margin-top: 10px;
+      padding: 10px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
 
   }
 
   .Vidbutton2 {
     background-color: lightgreen;
-    margin-left: 10px;
+
   }
 
   /* 480 brands list */
