@@ -397,6 +397,10 @@ header ul li  {
   padding: 25px 0;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 #bigPhone, .stack1, .stack2 {
   width: calc((100% / 3) - 50px);
   display: flex;
@@ -628,13 +632,23 @@ input {
 
 @media (max-width: 1150px){
 
+  /* 1150 header and nav */
+
+  header {
+    height: 125vh;
+  }
+
+  header nav {
+    margin-top: -40px;
+  }
+
   /*1150 about section */
 
   .about {
     max-width: 90%;
     margin: 0 auto;
     display: block;
-    max-height: 200vh;
+    max-height: 500vh;
     padding-bottom: 20px;
     text-align: center;
   }
@@ -644,7 +658,7 @@ input {
     margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
-    height: 25vh;
+    height: 20vh;
 
 
   }
@@ -965,7 +979,7 @@ input {
     display: block;
     width: 100%;
     padding: 50px;
-    height: 100vh;
+
 
   }
 
@@ -1208,7 +1222,21 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 150vh;
+  }
 
+  .fekra {
+    padding-top: 10px;
+  }
+
+  #caps {
+    padding: 20px;
+    font-size: 2em;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .transparent {
@@ -1282,7 +1310,7 @@ header ul div {
   max-width: 90%;
   margin: 0 auto;
   display: block;
-  max-height: 200vh;
+  max-height: 500vh;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -1292,7 +1320,7 @@ header ul div {
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
-  height: 25vh;
+  height: 30vh;
 
 
 }
@@ -1813,6 +1841,7 @@ input {
 
  /*480 BREAKPOINT*/
 
+
 @media (max-width: 480px) {
 
   header {
@@ -1820,6 +1849,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 110vh;
 
   }
 
@@ -1835,9 +1865,8 @@ input {
     background-color: white;
     display: block;
     max-width: 95%;
-    /* position: absolute;
-    top: 10px; */
     margin: 0 auto;
+    margin-top: -10px;
 
 
   }
@@ -2213,11 +2242,10 @@ input {
 
   .themesVid {
     background-color: rgba(169,169,169, 0.95);
-    min-height: 100vh;
     display: block;
     width: 100%;
     padding: 50px;
-    height: 25vh;
+
 
   }
 
